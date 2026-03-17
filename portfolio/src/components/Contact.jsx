@@ -18,7 +18,10 @@ const Contact = () => {
     setStatus({ loading: true, success: false, error: '' });
     
     try {
-      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5001/api';
+      // Remove trailing slash if it exists to prevent double slash like .app//contact
+      const rawApiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5001/api';
+      const apiUrl = rawApiUrl.endsWith('/') ? rawApiUrl.slice(0, -1) : rawApiUrl;
+      
       const response = await fetch(`${apiUrl}/contact`, {
         method: 'POST',
         headers: {
