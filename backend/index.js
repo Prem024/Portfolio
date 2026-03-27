@@ -12,7 +12,7 @@ const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/portfolio-
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://prem-nanda.vercel.app'],
+  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://prem-nanda.vercel.app', 'https://premnanda.vercel.app'],
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
@@ -24,10 +24,10 @@ mongoose.connect(MONGO_URI)
   .catch((err) => console.error('MongoDB connection error:', err));
 
 // Routes
-app.post('/api/contact', async (req, res) => {
+app.post('/contact', async (req, res) => {
   try {
     const { name, email, message } = req.body;
-    
+
     // Validation
     if (!name || !email || !message) {
       return res.status(400).json({ error: 'Please provide all required fields (name, email, message)' });
