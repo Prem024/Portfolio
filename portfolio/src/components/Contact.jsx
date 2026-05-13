@@ -65,15 +65,15 @@ const Contact = () => {
                   <span className="p-3 bg-white dark:bg-darkCard rounded-full shadow-sm border border-slate-100 dark:border-slate-800">
                     <FiMail className="w-5 h-5" />
                   </span>
-                  <span className="font-medium">hello@example.com</span>
+                  <span className="font-medium">premnanda532@gmail.com</span>
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <a href="https://www.linkedin.com/in/prem-nanda/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   <span className="p-3 bg-white dark:bg-darkCard rounded-full shadow-sm border border-slate-100 dark:border-slate-800">
                     <FiLinkedin className="w-5 h-5" />
                   </span>
                   <span className="font-medium">LinkedIn Profile</span>
                 </a>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                <a href="https://github.com/Prem024" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                   <span className="p-3 bg-white dark:bg-darkCard rounded-full shadow-sm border border-slate-100 dark:border-slate-800">
                     <FiGithub className="w-5 h-5" />
                   </span>
