@@ -23,15 +23,15 @@ const About = () => {
             <div className="space-y-6">
               <div className="relative pl-6 border-l-2 border-blue-500">
                 <div className="absolute w-3 h-3 bg-blue-500 rounded-full -left-[7px] top-1.5 ring-4 ring-white dark:ring-darkCard"></div>
-                <h4 className="font-bold text-lg">Bachelor of Technology</h4>
-                <p className="text-sm text-slate-500 dark:text-slate-400 mb-1">Computer Science & Engineering</p>
-                <p className="text-slate-600 dark:text-slate-400 text-sm">Graduated in 2026</p>
+                <h4 className="font-bold text-lg">Vidyasagar Infotech College</h4>
+                <p className="text-sm text-slate-500 dark:text-slate-400 mb-1">Bachelor Of Computer Application</p>
+                <p className="text-slate-600 dark:text-slate-400 text-sm">Graduated in 2025</p>
               </div>
               
               <div className="relative pl-6 border-l-2 border-slate-200 dark:border-slate-700">
                 <div className="absolute w-3 h-3 bg-slate-300 dark:bg-slate-600 rounded-full -left-[7px] top-1.5 ring-4 ring-white dark:ring-darkCard"></div>
-                <h4 className="font-bold text-lg">High School</h4>
-                <p className="text-sm text-slate-500 dark:text-slate-400 mb-1">Science Stream</p>
+                <h4 className="font-bold text-lg">St. Francis Higher Secondary School</h4>
+                <p className="text-sm text-slate-500 dark:text-slate-400 mb-1">Higher Secondary</p>
                 <p className="text-slate-600 dark:text-slate-400 text-sm">Completed in 2022</p>
               </div>
             </div>
