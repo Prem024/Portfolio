@@ -22,7 +22,7 @@ const Projects = () => {
       description: `Developed a full-stack blogging application using React (Vite), Node.js, Express, and MongoDB with secure user  authentication using JWT and bcrypt.Built a personalized dashboard with full CRUD functionality, dynamic URL slug generation, and a commenting system for enhanced user engagement.Managed global state using Redux Toolkit and designed a responsive, mobile-first UI using Tailwind CSS.`,
       tech: ['React', 'Node.js', 'Express'],
       github: 'https://github.com/Prem024/TechTales',
-      live: '#'
+      live: 'https://tech-tales-five.vercel.app/'
     }
   ];
 
